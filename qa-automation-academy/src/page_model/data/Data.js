@@ -7,7 +7,7 @@ export const CREDENTIALS= {
         PWD:'secret_sauce'
     },
     INVALID_USER:{
-            USERNAME:'standard_user',
+            USERNAME:'Invalid_user',
             PWD:'abcd'
         }
     
