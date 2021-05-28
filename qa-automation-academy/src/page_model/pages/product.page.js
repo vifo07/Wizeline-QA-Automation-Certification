@@ -26,12 +26,12 @@ class ProductPage{
     async logOut(){
         await t.click(this.optionbutton)
                 .click(this.logoutlink);
-        //return await this.loginButton.exists;
+       
     }
 
     async goToShoppingCartPage(){
         await t.click(this.shoppingcartbutton);
-        //return await this.shoppingcartpageheader.textContent;
+     
    }
 
    async addtoCart(addtocartselection){
